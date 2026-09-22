@@ -1,1 +1,207 @@
-{"version":"1.1.0","languages":[{"id":1,"name":"English","languageCode":"en"},{"id":2,"name":"Spanish","languageCode":"es"},{"id":3,"name":"Portuguese","languageCode":"pt"}],"topMenus":[{"id":1,"name":"Payments","slugUrl":"payments","displayOrder":1,"languageId":1,"active":true,"version":1,"uuid":"7c2e6775-4204-46e8-ab4f-15730de7b48c","subMenus":[{"id":1,"name":"Getting Started","slugUrl":"getting-started","displayOrder":1,"topMenuId":1,"languageId":1,"active":true,"version":1,"uuid":"21b80a75-1dfd-4cea-aef5-e60172e2d784","documents":[{"id":1,"name":"Introduction","markdownContent":"# Payment Gateway Integration and Configuration\n\n ## Getting Started\n\n Configure a payment gateway to enable secure online payment processing in your application.\n\n ### Prerequisites\n\n Before you begin, ensure you have:\n\n - An active payment gateway account\n- Required API credentials\n- Access to payment gateway configuration settings\n\n ### Configure Payment Gateway\n\n 1. Go to **Payments → Payment Gateway Integration and Configuration**.\n2. Select the required **Payment Gateway**.\n3. Enter the required credentials, such as **Merchant ID**, **API Key**, and **Secret Key**.\n4. Select the appropriate **Environment**:\n   - Test/Sandbox\n   - Production\n5. Configure the required **Currency** and payment options.\n6. Click **Save**.\n\n ### Test the Configuration\n\n Use the **Test/Sandbox** environment to verify payment processing before switching to **Production**.\n\n > **Note:** Keep API keys and secret credentials secure. Do not expose them in client-side code or public documentation.","htmlContent":"<h1>Payment Gateway Integration and Configuration</h1>\n<h2>Getting Started</h2>\n<p>Configure a payment gateway to enable secure online payment processing in your application.</p>\n<h3>Prerequisites</h3>\n<p>Before you begin, ensure you have:</p>\n<ul>\n<li>An active payment gateway account</li>\n<li>Required API credentials</li>\n<li>Access to payment gateway configuration settings</li>\n</ul>\n<h3>Configure Payment Gateway</h3>\n<ol>\n<li>Go to <strong>Payments → Payment Gateway Integration and Configuration</strong>.</li>\n<li>Select the required <strong>Payment Gateway</strong>.</li>\n<li>Enter the required credentials, such as <strong>Merchant ID</strong>, <strong>API Key</strong>, and <strong>Secret Key</strong>.</li>\n<li>Select the appropriate <strong>Environment</strong>:\n<ul>\n<li>Test/Sandbox</li>\n<li>Production</li>\n</ul>\n</li>\n<li>Configure the required <strong>Currency</strong> and payment options.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>\n<h3>Test the Configuration</h3>\n<p>Use the <strong>Test/Sandbox</strong> environment to verify payment processing before switching to <strong>Production</strong>.</p>\n<blockquote>\n<p><strong>Note:</strong> Keep API keys and secret credentials secure. Do not expose them in client-side code or public documentation.</p>\n</blockquote>\n","categoryId":1,"topMenuId":1,"displayOrder":1,"languageCode":"en","active":true,"status":1,"mostViewed":false,"version":null,"uuid":"8b6b628b-6aa9-4870-a2e8-5e1dd0634c50"}]}]},{"id":2,"name":"Pagamentos","slugUrl":"pagamentos","displayOrder":1,"languageId":3,"active":true,"version":1,"uuid":"72dbedc1-e12a-4773-a021-0e5e2a0411a0","subMenus":[{"id":2,"name":"Começando","slugUrl":"começando","displayOrder":1,"topMenuId":2,"languageId":3,"active":true,"version":1,"uuid":"f77e9f10-4514-43c3-a9ce-690e265c01db","documents":[{"id":2,"name":"Introdução","markdownContent":"# Integração e Configuração de Gateway de Pagamento\n\n## Primeiros Passos\n\nConfigure um gateway de pagamento para habilitar o processamento seguro de pagamentos online em sua aplicação.\n\n### Pré-requisitos\n\nAntes de começar, certifique-se de ter:\n\n- Uma conta ativa no gateway de pagamento\n- As credenciais de API necessárias\n- Acesso às configurações do gateway de pagamento\n\n### Configurar o Gateway de Pagamento\n\n1. Vá para **Pagamentos → Integração e Configuração de Gateway de Pagamento**.\n2. Selecione o **Gateway de Pagamento** desejado.\n3. Insira as credenciais necessárias, como **Merchant ID**, **API Key** e **Secret Key**.\n4. Selecione o **Ambiente** apropriado:\n   - Teste/Sandbox\n   - Produção\n5. Configure a **Moeda** e as opções de pagamento necessárias.\n6. Clique em **Salvar**.\n\n### Testar a Configuração\n\nUse o ambiente de **Teste/Sandbox** para verificar o processamento de pagamentos antes de mudar para **Produção**.\n\n> **Nota:** Mantenha as chaves de API e credenciais secretas em segurança. Não as exponha em código do lado do cliente (client-side) ou em documentação pública.","htmlContent":"<h1>Integração e Configuração de Gateway de Pagamento</h1>\n<h2>Primeiros Passos</h2>\n<p>Configure um gateway de pagamento para habilitar o processamento seguro de pagamentos online em sua aplicação.</p>\n<h3>Pré-requisitos</h3>\n<p>Antes de começar, certifique-se de ter:</p>\n<ul>\n<li>Uma conta ativa no gateway de pagamento</li>\n<li>As credenciais de API necessárias</li>\n<li>Acesso às configurações do gateway de pagamento</li>\n</ul>\n<h3>Configurar o Gateway de Pagamento</h3>\n<ol>\n<li>Vá para <strong>Pagamentos → Integração e Configuração de Gateway de Pagamento</strong>.</li>\n<li>Selecione o <strong>Gateway de Pagamento</strong> desejado.</li>\n<li>Insira as credenciais necessárias, como <strong>Merchant ID</strong>, <strong>API Key</strong> e <strong>Secret Key</strong>.</li>\n<li>Selecione o <strong>Ambiente</strong> apropriado:\n<ul>\n<li>Teste/Sandbox</li>\n<li>Produção</li>\n</ul>\n</li>\n<li>Configure a <strong>Moeda</strong> e as opções de pagamento necessárias.</li>\n<li>Clique em <strong>Salvar</strong>.</li>\n</ol>\n<h3>Testar a Configuração</h3>\n<p>Use o ambiente de <strong>Teste/Sandbox</strong> para verificar o processamento de pagamentos antes de mudar para <strong>Produção</strong>.</p>\n<blockquote>\n<p><strong>Nota:</strong> Mantenha as chaves de API e credenciais secretas em segurança. Não as exponha em código do lado do cliente (client-side) ou em documentação pública.</p>\n</blockquote>\n","categoryId":2,"topMenuId":2,"displayOrder":1,"languageCode":"pt","active":true,"status":1,"mostViewed":false,"version":null,"uuid":"61610e9b-88e3-4b7d-a91e-576456569939"}]}]}],"quickLinks":[{"id":1,"title":"Payment","description":"Payments","url":"/docs/payments","icon":"d8831835-3df5-11ee-922f-824cadec4823/a791c7f56f6140c0847b9ff3263c8ed0.png","languageId":1,"active":true,"version":1,"uuid":"359d6fef-415c-4847-91df-7e1a4794b835"},{"id":2,"title":"Pagamentos","description":"Pagamentos","url":"/docs/pagamentos","icon":"d8831835-3df5-11ee-922f-824cadec4823/d412bf7d3ce440468d467e75ca2c56d8.png","languageId":3,"active":true,"version":1,"uuid":"82f5cf9f-06ea-45a8-aeee-0725fa4f12c3"}],"latestUpdates":[{"id":1,"title":"Introducing a New International Payment Gateway","description":"# Introducing a New International Payment Gateway\n\n We’re pleased to introduce a **new international payment gateway**, enabling you to accept and process payments from customers worldwide.\n\n This update provides a more flexible and seamless payment experience for international transactions.","languageId":1,"active":true,"version":1,"uuid":"577e8a36-3261-447f-92a2-9ecdb52b990c"},{"id":2,"title":"Apresentando um novo gateway de pagamento internacional","description":"# Apresentando um novo gateway de pagamento internacional\n\nTemos o prazer de apresentar um **novo gateway de pagamento internacional**, que permite aceitar e processar pagamentos de clientes em todo o mundo.\n\nEssa atualização proporciona uma experiência de pagamento mais flexível e fluida para transações internacionais.","languageId":3,"active":true,"version":1,"uuid":"0782fbb9-b99d-4ba0-8c6f-4b11ed667ba9"}],"mediaFiles":[]}
+{
+"version": "SQL_EXPORT",
+"languages": [
+{
+"id": 1,
+"name": "English",
+"languageCode": "en"
+},
+{
+"id": 2,
+"name": "Spanish",
+"languageCode": "es"
+},
+{
+"id": 3,
+"name": "Portuguese",
+"languageCode": "pt"
+}
+],
+"topMenus": [
+{
+"id": 1,
+"name": "Payments",
+"slugUrl": "payments",
+"displayOrder": 1,
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "7c2e6775-4204-46e8-ab4f-15730de7b48c",
+"subMenus": [
+{
+"id": 1,
+"name": "Getting Started",
+"slugUrl": "getting-started",
+"displayOrder": 1,
+"topMenuId": 1,
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "21b80a75-1dfd-4cea-aef5-e60172e2d784",
+"documents": [
+{
+"id": 1,
+"name": "Introduction",
+"markdownContent": "# Payment Gateway Integration and Configuration\n\n ## Getting Started\n\n Configure a payment gateway to enable secure online payment processing in your application.\n\n ### Prerequisites\n\n Before you begin, ensure you have:\n\n - An active payment gateway account\n- Required API credentials\n- Access to payment gateway configuration settings\n\n ### Configure Payment Gateway\n\n 1. Go to Payments → Payment Gateway Integration and Configuration.\n2. Select the required Payment Gateway.\n3. Enter the required credentials, such as Merchant ID, API Key, and Secret Key.\n4. Select the appropriate Environment:\n - Test/Sandbox\n - Production\n5. Configure the required Currency and payment options.\n6. Click Save.\n\n ### Test the Configuration\n\n Use the Test/Sandbox environment to verify payment processing before switching to Production.\n\n > Note: Keep API keys and secret credentials secure. Do not expose them in client-side code or public documentation.",
+"htmlContent": "<h1>Payment Gateway Integration and Configuration</h1>\n<h2>Getting Started</h2>\n<p>Configure a payment gateway to enable secure online payment processing in your application.</p>\n<h3>Prerequisites</h3>\n<p>Before you begin, ensure you have:</p>\n<ul>\n<li>An active payment gateway account</li>\n<li>Required API credentials</li>\n<li>Access to payment gateway configuration settings</li>\n</ul>\n<h3>Configure Payment Gateway</h3>\n<ol>\n<li>Go to <strong>Payments → Payment Gateway Integration and Configuration</strong>.</li>\n<li>Select the required <strong>Payment Gateway</strong>.</li>\n<li>Enter the required credentials, such as <strong>Merchant ID</strong>, <strong>API Key</strong>, and <strong>Secret Key</strong>.</li>\n<li>Select the appropriate <strong>Environment</strong>:\n<ul>\n<li>Test/Sandbox</li>\n<li>Production</li>\n</ul>\n</li>\n<li>Configure the required <strong>Currency</strong> and payment options.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>\n<h3>Test the Configuration</h3>\n<p>Use the <strong>Test/Sandbox</strong> environment to verify payment processing before switching to <strong>Production</strong>.</p>\n<blockquote>\n<p><strong>Note:</strong> Keep API keys and secret credentials secure. Do not expose them in client-side code or public documentation.</p>\n</blockquote>\n",
+"categoryId": 1,
+"topMenuId": 1,
+"displayOrder": 1,
+"languageCode": "en",
+"active": true,
+"status": 1,
+"mostViewed": false,
+"version": null,
+"uuid": "8b6b628b-6aa9-4870-a2e8-5e1dd0634c50"
+}
+]
+}
+]
+},
+{
+"id": 2,
+"name": "Pagamentos",
+"slugUrl": "pagamentos",
+"displayOrder": 1,
+"languageId": 3,
+"active": true,
+"version": 1,
+"uuid": "72dbedc1-e12a-4773-a021-0e5e2a0411a0",
+"subMenus": [
+{
+"id": 2,
+"name": "Começando",
+"slugUrl": "começando",
+"displayOrder": 1,
+"topMenuId": 2,
+"languageId": 3,
+"active": true,
+"version": 1,
+"uuid": "f77e9f10-4514-43c3-a9ce-690e265c01db",
+"documents": [
+{
+"id": 2,
+"name": "Introdução",
+"markdownContent": "# Integração e Configuração de Gateway de Pagamento\n\n## Primeiros Passos\n\nConfigure um gateway de pagamento para habilitar o processamento seguro de pagamentos online em sua aplicação.\n\n### Pré-requisitos\n\nAntes de começar, certifique-se de ter:\n\n- Uma conta ativa no gateway de pagamento\n- As credenciais de API necessárias\n- Acesso às configurações do gateway de pagamento\n\n### Configurar o Gateway de Pagamento\n\n1. Vá para Pagamentos → Integração e Configuração de Gateway de Pagamento.\n2. Selecione o Gateway de Pagamento desejado.\n3. Insira as credenciais necessárias, como Merchant ID, API Key e Secret Key.\n4. Selecione o Ambiente apropriado:\n - Teste/Sandbox\n - Produção\n5. Configure a Moeda e as opções de pagamento necessárias.\n6. Clique em Salvar.\n\n### Testar a Configuração\n\nUse o ambiente de Teste/Sandbox para verificar o processamento de pagamentos antes de mudar para Produção.\n\n> Nota: Mantenha as chaves de API e credenciais secretas em segurança. Não as exponha em código do lado do cliente (client-side) ou em documentação pública.",
+"htmlContent": "<h1>Integração e Configuração de Gateway de Pagamento</h1>\n<h2>Primeiros Passos</h2>\n<p>Configure um gateway de pagamento para habilitar o processamento seguro de pagamentos online em sua aplicação.</p>\n<h3>Pré-requisitos</h3>\n<p>Antes de começar, certifique-se de ter:</p>\n<ul>\n<li>Uma conta ativa no gateway de pagamento</li>\n<li>As credenciais de API necessárias</li>\n<li>Acesso às configurações do gateway de pagamento</li>\n</ul>\n<h3>Configurar o Gateway de Pagamento</h3>\n<ol>\n<li>Vá para <strong>Pagamentos → Integração e Configuração de Gateway de Pagamento</strong>.</li>\n<li>Selecione o <strong>Gateway de Pagamento</strong> desejado.</li>\n<li>Insira as credenciais necessárias, como <strong>Merchant ID</strong>, <strong>API Key</strong> e <strong>Secret Key</strong>.</li>\n<li>Selecione o <strong>Ambiente</strong> apropriado:\n<ul>\n<li>Teste/Sandbox</li>\n<li>Produção</li>\n</ul>\n</li>\n<li>Configure a <strong>Moeda</strong> e as opções de pagamento necessárias.</li>\n<li>Clique em <strong>Salvar</strong>.</li>\n</ol>\n<h3>Testar a Configuração</h3>\n<p>Use o ambiente de <strong>Teste/Sandbox</strong> para verificar o processamento de pagamentos antes de mudar para <strong>Produção</strong>.</p>\n<blockquote>\n<p><strong>Nota:</strong> Mantenha as chaves de API e credenciais secretas em segurança. Não as exponha em código do lado do cliente (client-side) ou em documentação pública.</p>\n</blockquote>\n",
+"categoryId": 2,
+"topMenuId": 2,
+"displayOrder": 1,
+"languageCode": "pt",
+"active": true,
+"status": 1,
+"mostViewed": false,
+"version": null,
+"uuid": "61610e9b-88e3-4b7d-a91e-576456569939"
+}
+]
+}
+]
+},
+{
+"id": 3,
+"name": "User Guide",
+"slugUrl": "user-guide",
+"displayOrder": 2,
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "3d3e7a91-8c3a-4d8b-9c11-2f6e8a5b7d41",
+"subMenus": [
+{
+"id": 3,
+"name": "Introduction",
+"slugUrl": "introduction",
+"displayOrder": 1,
+"topMenuId": 3,
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "4f7b2c91-6a3d-45e8-b129-7c5d9a2f6b30",
+"documents": [
+{
+"id": 3,
+"name": "Introduction",
+"markdownContent": "# User Guide\n\n## Introduction\n\nWelcome to the User Guide. This section provides an overview of the application and explains how to navigate and use its main features.\n\n### Getting Started\n\nFollow these steps to get started:\n\n1. Sign in to your account.\n2. Navigate through the main menu to access the available features.\n3. Review the relevant sections of the User Guide for detailed instructions.\n4. Configure the required settings for your application.\n5. Start using the available features and services.\n\n### Navigation\n\nUse the main navigation menu to access different areas of the application. Each section contains relevant documentation and instructions to help you complete common tasks.\n\n### Important Notes\n\n- Make sure your account has the required permissions before accessing restricted features.\n- Keep your account credentials secure.\n- Follow the configuration instructions provided for each feature.\n- Refer to the latest updates for information about newly introduced functionality.",
+"htmlContent": "<h1>User Guide</h1>\n<h2>Introduction</h2>\n<p>Welcome to the User Guide. This section provides an overview of the application and explains how to navigate and use its main features.</p>\n<h3>Getting Started</h3>\n<p>Follow these steps to get started:</p>\n<ol>\n<li>Sign in to your account.</li>\n<li>Navigate through the main menu to access the available features.</li>\n<li>Review the relevant sections of the User Guide for detailed instructions.</li>\n<li>Configure the required settings for your application.</li>\n<li>Start using the available features and services.</li>\n</ol>\n<h3>Navigation</h3>\n<p>Use the main navigation menu to access different areas of the application. Each section contains relevant documentation and instructions to help you complete common tasks.</p>\n<h3>Important Notes</h3>\n<ul>\n<li>Make sure your account has the required permissions before accessing restricted features.</li>\n<li>Keep your account credentials secure.</li>\n<li>Follow the configuration instructions provided for each feature.</li>\n<li>Refer to the latest updates for information about newly introduced functionality.</li>\n</ul>\n",
+"categoryId": 3,
+"topMenuId": 3,
+"displayOrder": 1,
+"languageCode": "en",
+"active": true,
+"status": 1,
+"mostViewed": false,
+"version": null,
+"uuid": "6e2f9a41-7c5b-4d8e-a193-5f6b2c9a7d40"
+}
+]
+}
+]
+}
+],
+"quickLinks": [
+{
+"id": 1,
+"title": "Payment",
+"description": "Payments",
+"url": "/docs/payments",
+"icon": "d8831835-3df5-11ee-922f-824cadec4823/a791c7f56f6140c0847b9ff3263c8ed0.png",
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "359d6fef-415c-4847-91df-7e1a4794b835"
+},
+{
+"id": 2,
+"title": "Pagamentos",
+"description": "Pagamentos",
+"url": "/docs/pagamentos",
+"icon": "d8831835-3df5-11ee-922f-824cadec4823/d412bf7d3ce440468d467e75ca2c56d8.png",
+"languageId": 3,
+"active": true,
+"version": 1,
+"uuid": "82f5cf9f-06ea-45a8-aeee-0725fa4f12c3"
+},
+{
+"id": 3,
+"title": "User Guide",
+"description": "User Guide",
+"url": "/docs/user-guide",
+"icon": "d8831835-3df5-11ee-922f-824cadec4823/user-guide.png",
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "8a4c2f71-5d9e-43b6-a182-7c3f9e5b6d20"
+}
+],
+"latestUpdates": [
+{
+"id": 1,
+"title": "Introducing a New International Payment Gateway",
+"description": "# Introducing a New International Payment Gateway\n\n We’re pleased to introduce a new international payment gateway, enabling you to accept and process payments from customers worldwide.\n\n This update provides a more flexible and seamless payment experience for international transactions.",
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "577e8a36-3261-447f-92a2-9ecdb52b990c"
+},
+{
+"id": 2,
+"title": "Apresentando um novo gateway de pagamento internacional",
+"description": "# Apresentando um novo gateway de pagamento internacional\n\nTemos o prazer de apresentar um novo gateway de pagamento internacional, que permite aceitar e processar pagamentos de clientes em todo o mundo.\n\nEssa atualização proporciona uma experiência de pagamento mais flexível e fluida para transações internacionais.",
+"languageId": 3,
+"active": true,
+"version": 1,
+"uuid": "0782fbb9-b99d-4ba0-8c6f-4b11ed667ba9"
+},
+{
+"id": 3,
+"title": "Introducing the User Guide",
+"description": "# Introducing the User Guide\n\nWe’re pleased to introduce the new User Guide, providing a central place for users to learn how to navigate and use the application.\n\nThe User Guide includes getting-started information, navigation guidance, and important notes to help users make the most of the available features.",
+"languageId": 1,
+"active": true,
+"version": 1,
+"uuid": "9b5e2c71-4d8a-46f3-b190-7c2e5a9d6f31"
+}
+],
+"mediaFiles": []
+}
